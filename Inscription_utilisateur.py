@@ -38,3 +38,5 @@ def inscriptionUtilisateur(email, motDePasse, db=None):
 
     # Succès : création de l'utilisateur
     return Utilisateur(email)
+
+# erreur d'exercice
