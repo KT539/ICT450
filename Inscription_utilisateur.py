@@ -1,8 +1,5 @@
 # test_inscription.py
 
-import pytest
-from unittest.mock import Mock
-
 
 # --- Code à tester ---
 
@@ -38,5 +35,3 @@ def inscriptionUtilisateur(email, motDePasse, db=None):
 
     # Succès : création de l'utilisateur
     return Utilisateur(email)
-
-# erreur d'exercice
